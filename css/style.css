@@ -1,0 +1,31 @@
+body {
+  background-color: black;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
+
+.player-options img,
+.enemy-options img {
+  max-width: 200px;
+  opacity: 0.3;
+  cursor: pointer;
+}
+
+.player-options img{
+  transition: opacity 0.5s;
+}
+
+
+
+.align {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.winner{
+  color: white;
+  text-align: center;
+}
